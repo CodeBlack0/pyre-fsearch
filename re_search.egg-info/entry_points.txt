@@ -1,0 +1,3 @@
+[console_scripts]
+search = re_search:Main
+
