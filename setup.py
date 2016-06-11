@@ -9,5 +9,5 @@ setup(name='pyre-fsearch',
 	  packages=['pyre_fsearch'],
 	  zip_safe=False,
 	  entry_points={
-	  	'console_scripts': ['search=pyre_fsearch:Main'],
+	  	'console_scripts': ['research=pyre_fsearch:Main'],
 	  },)
