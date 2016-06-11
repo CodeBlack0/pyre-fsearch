@@ -1,13 +1,13 @@
 from setuptools import setup
 
-setup(name='re_search',
+setup(name='pyre-fsearch',
 	  version='0.1',
 	  description='Tool/Package to search files with reqular expressions',
 	  author='Tim Fischer',
 	  author_email='tim.fischer98@hotmail.com',
 	  license='MIT',
-	  packages=['re_search'],
+	  packages=['pyre_fsearch'],
 	  zip_safe=False,
 	  entry_points={
-	  	'console_scripts': ['search=re_search:Main'],
+	  	'console_scripts': ['search=pyre_fsearch:Main'],
 	  },)
